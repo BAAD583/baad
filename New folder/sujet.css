@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2{
+    text-transform:uppercase ;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* **********************navbar**************** */
+ header nav{
+    overflow: hidden;
+    background-color: #fffae1;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    
+    opacity: 0.9;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: bold;
+    float: left;
+    
+}
+.saadii{
+    border-radius: 20px;
+}
+
+.saadii:hover{ 
+    transform: scale(1.2);
+}
+    
+/* *************************image principale********************* */
+#imageprincipale{
+    
+    padding-top:60px;
+    background: url(image/imagepricipales.jpg) no-repeat  fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#nom{
+    font-family:'Edu TAS Beginner', cursive ;
+    text-align: center;
+    color:white;
+    font-size: 6em;
+    margin-top: 110px;
+    
+    text-shadow: 2px 4px 4px gray;
+}
+#premiertrait{
+    height: 4px;
+    width: 30%;
+    margin:-20px  auto;
+    background-color:white;
+    text-shadow: 2px 4px 4px gray;
+}
+#sous{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 4px 4px gray;
+
+
+}
+/* *****************presentation************** */
+#presentation{
+    background-color: antiquewhite;
+    padding: 10px 0px 100px 0;
+}
+#textintro{
+    padding: 10px 0px 100px 0;
+}
+#des{
+    font-family: sans-serif;
+    margin: 30px;
+    margin-top: 70px;
+}
+#presentations{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+
+.imagespresentations h4{
+    font-family: 'Edu TAS Beginner', cursive ;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+#imges3{
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+   
+}
+.imagespresentations img{
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.7);
+ }
+
+ .imagespresentations img:hover{
+  
+    transform: scale(2);
+    transition: 0.6s ease-in-out;
+ }
+
+ #tourisme{
+    height: 2000px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+ }
+
+ #tourisme h2{
+    padding-top: 60px;
+ }
+
+ #ocean{
+    background: url(image/picsine.jpg);
+    background-size: cover;
+    
+ }
+
+#chateau{
+    background: url(image/jardin.webp);
+    background-size: cover;
+}
+
+#phare{
+    background: url(image/view.jpg);
+    background-size: cover;
+}
+
+#vignoble{
+    background: url(image/service.jpg);
+    background-size: cover;
+}
+
+#tourisme li{
+    margin: 65px 100px 0 100px;
+    height: 350px;
+    width: 50%;
+    float: left;
+    max-width: 600px;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#tourisme p{
+    height: 40px;
+    width: 150px;
+    background-color: #014fdf;
+    float: right;
+    margin: 50px -160px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(32, 8, 250);
+    font-family: cursive;
+}
+
+#tourisme #chateau, #tourisme #vignoble{
+    float: right;
+}
+
+#chateau p, #vignoble p{
+float: left;
+
+margin-left: -180px;
+}
+
+    
+
+
+
+/* ****************footer**************** */
+footer{
+    background-color: #524a3a;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input,textarea,button{
+    width: 50%;
+    border: none;
+    padding: 15px  10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family:'Edu TAS Beginner', cursive ;
+    box-sizing: 8px;
+    border-radius: 8px;
+}
+textarea{
+    height: 150px;
+}
+button{
+    font-size: 2em;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: 0.2 ease-in-out;
+
+}
+#deuxiemetrait{
+    height: 2px;
+    width: 60%;
+    margin: 50px auto;
+    background-color:white;
+    text-shadow: 2px 4px 4px gray;
+
+}
+#copyrighteticons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 40%;
+    text-align: left;
+    color: white;
+}
+#icons{
+    width: 40%;
+    text-align: right;
+    
+}
+#icons a{
+    display: inline-block;
+    color: white;
+    font-size: 1.4em;
+    padding: 0 15px;
+
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
